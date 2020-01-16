@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import friends from "../../../src/friends.json";
+import friends from "../../friends.json";
 import Container from "../Container/index";
 import TableHead from "../TableHead/index";
 import compare from "../Functions/compare";
@@ -15,11 +15,11 @@ export default function Employee() {
     const [employeeColor, setEmployeeColor] = useState('');
 
     function setEmployeeInfo(value) {
-        setEmployeeName(value.map(o => <p>{o.name}</p>))
-        setEmployeeId(value.map(o => <p>{o.id}</p>))
-        setEmployeeOccupation(value.map(o => <p>{o.occupation}</p>))
-        setEmployeeLocation(value.map(o => <p>{o.location}</p>))
-        setEmployeeColor(value.map(o => <p>{o.color}</p>))
+        setEmployeeName(value.map(o => <p key={o.id}>{o.name}</p>))
+        setEmployeeId(value.map(o => <p key={o.id}>{o.id}</p>))
+        setEmployeeOccupation(value.map(o => <p key={o.id}>{o.occupation}</p>))
+        setEmployeeLocation(value.map(o => <p key={o.id}>{o.location}</p>))
+        setEmployeeColor(value.map(o => <p key={o.id}>{o.color}</p>))
     }
 
     useEffect(() => {
