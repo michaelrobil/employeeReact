@@ -1,6 +1,6 @@
 {
   "name": "employee",
-  "homepage" : "https://michaelrobil.github.io/employeeReact/",
+  "homepage": "https://michaelrobil.github.io/employeeReact/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
