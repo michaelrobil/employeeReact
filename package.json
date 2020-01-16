@@ -1,7 +1,7 @@
 {
   "name": "employee",
-  "homepage": "/employeeReact",
-  "baseurl": "/employeeReact",
+  "homepage": "https://michaelrobil.github.io/employeeReact/",
+  "baseurl": "https://michaelrobil.github.io/employeeReact/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
