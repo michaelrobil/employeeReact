@@ -62,8 +62,8 @@ export default function Employee() {
             <h1 className="title">Employee Directory</h1>
             <CardBtn className="btn btn-warning" onClick={e => sortById()}> Sort By ID </CardBtn>
             <CardBtn className="btn btn-warning" onClick={e => sortByName()}> Sort By Name </CardBtn>
-            <CardBtn className="btn btn-warning" onClick={e => sortByLocation()}> Sort By Location </CardBtn>
             <CardBtn className="btn btn-warning" onClick={e => sortByOccupation()}> Sort By Occupation </CardBtn>
+            <CardBtn className="btn btn-warning" onClick={e => sortByLocation()}> Sort By Location </CardBtn>
             <CardBtn className="btn btn-info" onClick={e => loadAllEmployee()}> Show All </CardBtn>
             <CardBtn className="btn btn-danger" onClick={e => filterByColor("red")}> Filter Red </CardBtn>
             <CardBtn className="btn btn-primary" onClick={e => filterByColor("blue")}> Filter Blue </CardBtn>

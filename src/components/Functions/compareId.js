@@ -1,6 +1,6 @@
 export default     function compare(a, b) {
-    const nameA = a.id.toUpperCase();
-    const nameB = b.id.toUpperCase();
+    const nameA = a.id
+    const nameB = b.id
   
     let comparison = 0;
     if (nameA > nameB) {
