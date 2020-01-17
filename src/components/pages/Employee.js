@@ -5,6 +5,7 @@ import TableHead from "../TableHead/index";
 import compare from "../Functions/compare";
 import compareLocation from "../Functions/compareLocation";
 import compareOccupation from "../Functions/compareOccupation";
+import compareId from "../Functions/compareId"
 import CardBtn from "../CardBtn/index"
 
 export default function Employee() {
@@ -35,6 +36,11 @@ export default function Employee() {
         setEmployeeInfo(selectedColor);
     }
 
+    function sortById() {
+        let newListId = friends.sort(compareId);
+        setEmployeeInfo(newListId);
+     }
+ 
     function sortByName() {
        let newListName = friends.sort(compare);
        setEmployeeInfo(newListName);
@@ -54,10 +60,11 @@ export default function Employee() {
         <div>
             <Container>
             <h1 className="title">Employee Directory</h1>
-            <CardBtn className="btn btn-info" onClick={e => loadAllEmployee()}> Show All </CardBtn>
+            <CardBtn className="btn btn-warning" onClick={e => sortById()}> Sort By ID </CardBtn>
             <CardBtn className="btn btn-warning" onClick={e => sortByName()}> Sort By Name </CardBtn>
             <CardBtn className="btn btn-warning" onClick={e => sortByLocation()}> Sort By Location </CardBtn>
             <CardBtn className="btn btn-warning" onClick={e => sortByOccupation()}> Sort By Occupation </CardBtn>
+            <CardBtn className="btn btn-info" onClick={e => loadAllEmployee()}> Show All </CardBtn>
             <CardBtn className="btn btn-danger" onClick={e => filterByColor("red")}> Filter Red </CardBtn>
             <CardBtn className="btn btn-primary" onClick={e => filterByColor("blue")}> Filter Blue </CardBtn>
             <CardBtn className="btn btn-success" onClick={e => filterByColor("green")}> Filter Green </CardBtn>
