@@ -1,15 +1,27 @@
 # employeeReact
 
-This web applictaion used React to break up UI into components, manage component state, and respond to user events.
+## About
+This application is intended as a tool for employers who want to list, sort and filter their employees.
+By running ‘show all’ for list, ‘sort by ...’ depend on the sort criteria and ‘filter ...’ to filter by color. 
 
-When you open the app. you will get a table of random users, a table of employees rendered. 
+## Contributors
+[Michael Robil](https://github.com/michaelrobil)
 
-The user will be able to:
+## Technology
+- React
+- HTML5, CSS, Bootstrap
+- Javascript, jQuery, Ajax
 
-  * Sort the table by Id, Name, location and occupation.
+## License
+Unlicense
 
-  * Filter the users by Color.
+## How to use this code
+Visit the app site at Heroku below. If you wish to copy and edit the code, you will need to run npm install to retrieve the necessary dependencies.
+- Application Site: https://michaelrobil.github.io/employeereact/
 
-User Story
+## Contact
 
-As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+- e-mail: michaelrobil@my-dev.online
+- LinkedIn: https://www.linkedin.com/in/michael-s-robil-60499869/
+
+
