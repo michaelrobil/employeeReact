@@ -16,7 +16,7 @@ By running ‘show all’ for list, ‘sort by ...’ depend on the sort criteri
 Unlicense
 
 ## How to use this code
-Visit the app site at Heroku below. If you wish to copy and edit the code, you will need to run npm install to retrieve the necessary dependencies.
+Visit the app site at github below. If you wish to copy and edit the code, you will need to run '''npm install''' to retrieve the necessary dependencies.
 - Application Site: https://michaelrobil.github.io/employeereact/
 
 ## Contact
