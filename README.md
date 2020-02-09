@@ -1,8 +1,11 @@
 # employeeReact
 
 ## About
-This application is intended as a tool for employers who want to list, sort and filter their employees.
+This application for employers who want to list, sort and filter their employees.
 By running ‘show all’ for list, ‘sort by ...’ depend on the sort criteria and ‘filter ...’ to filter by color. 
+
+## Application Screenshot
+![06-employee](https://user-images.githubusercontent.com/56613553/74096852-b5f78180-4ac9-11ea-971a-beef76432690.png)
 
 ## Contributors
 [Michael Robil](https://github.com/michaelrobil)
